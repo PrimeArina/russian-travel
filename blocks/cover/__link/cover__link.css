@@ -1,0 +1,38 @@
+.cover__link{
+  color: #fff;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 740px;
+  background-image: url(../../../images/__background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 3;
+}
+
+.cover__link::before{
+  content: '';
+  background: #2A2C2F;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.cover__link:hover::before{
+  opacity:0.7;
+  }
+
+@media screen and (max-width: 568px) {
+  .cover__link{
+  min-height: 200px;
+}
+}
+    
