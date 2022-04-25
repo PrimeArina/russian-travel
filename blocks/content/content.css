@@ -1,16 +1,29 @@
 .content{
   display:grid;
   grid-row-gap:92px;
+  grid-template-columns: minmax(240px, 1280px);
   flex-shrink: 0;
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .content{
+    grid-row-gap:92px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .content{
     grid-row-gap:88px;
   }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .content{
+    grid-row-gap:64px;
+  }
+}
+
+@media screen and (max-width: 319px) {
   .content{
     grid-row-gap:64px;
   }

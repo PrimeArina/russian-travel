@@ -6,11 +6,18 @@
   padding: 0;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (min-width: 546x) and (max-width: 767px) {
   .intro__title{
-  max-width: 288px;
-  min-height: 70px;
-  font-size: 32px;
+  max-width: 1fr;
+  font-size: 1.5em;
   line-height: 35px;
 }
 }
+
+@media screen and (max-width: 545px) {
+  .intro__title{
+    max-width: 1fr;
+    font-size: 2em;
+    line-height: 35px;
+  }
+  }

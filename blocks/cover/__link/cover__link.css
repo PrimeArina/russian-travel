@@ -9,6 +9,8 @@
   min-height: 740px;
   background-image: url(../../../images/__background.png);
   background-size: cover;
+  object-fit: cover;
+  overflow: hidden;
   background-repeat: no-repeat;
   background-position: center center;
   z-index: 3;
@@ -30,9 +32,10 @@
   opacity:0.7;
   }
 
-@media screen and (max-width: 568px) {
-  .cover__link{
-  min-height: 200px;
-}
-}
-    
+  @media screen and (min-width: 240px) and (max-width: 550px) {
+    .cover__link{
+    min-height: 200px;
+    }
+  }
+
+   

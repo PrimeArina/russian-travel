@@ -10,14 +10,14 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (min-width: 830px) and (max-width: 1200px) {
   .place__title{
     max-width: 440px;
     min-height: 76px;
   }
 }
   
-@media screen and (max-width: 984px) {
+@media screen and (min-width: 580px) and (max-width: 829px) {
   .place__title{
     max-width: 340px;
     min-height: 46px;
@@ -27,7 +27,7 @@
 }
 }
   
-@media screen and (max-width: 568px) {
+@media screen and (min-width: 240px) and (max-width: 579px) {
   .place__title{
   max-width: 288px;
   min-height: 35px;
