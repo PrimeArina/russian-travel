@@ -2,6 +2,7 @@
   display:grid;
   grid-row-gap:92px;
   grid-template-columns: minmax(240px, 1280px);
+  align-items: center;
   flex-shrink: 0;
 }
 
