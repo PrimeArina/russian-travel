@@ -1,21 +1,21 @@
-.place__paragraph_1{
-  margin-bottom: 12px;
+.place__par-first{
+  margin: 0 0 26px 0;
 }
 
 @media screen and (min-width: 830px) and (max-width: 1200px) {
-  .place__paragraph_1{
+  .place__par-first{
     margin: 0 0 26px 0;
   }
 }
   
 @media screen and (min-width: 580px) and (max-width: 829px) {
-  .place__paragraph_1{
+  .place__par-first{
     margin: 0 0 25px 0;
   }
 }
   
 @media screen and (min-width: 240px) and (max-width: 579px) {
-  .place__paragraph_1{
+  .place__par-first{
     margin: 0 0 25px 0;
   }
 }
