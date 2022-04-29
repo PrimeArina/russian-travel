@@ -7,27 +7,24 @@
 @media screen and (min-width: 830px) and (max-width: 1200px) {
   .place__website{
     max-width: 456px;
-    margin: 0;
   }
 }
   
 @media screen and (min-width: 580px) and (max-width: 829px) {
   .place__website{
     max-width: 352px;
-    margin: 0;
   }
 }
 
 @media screen and (min-width: 350px) and (max-width: 579px) {
   .place__website{
   max-width: 288px;
-  margin: 0;
 }
 }
 
 @media screen and (min-width: 240px) and (max-width: 349px) {
   .place__website{
   max-width: 288px;
-  margin: 0 16px;
+  padding-left: 16px;
 }
 }

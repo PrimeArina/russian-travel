@@ -1,15 +1,12 @@
 .lead__title{
   margin: 0 132px 0 132px;
-  padding: 0;
-  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 6em;
+  font-size: 96px;
   line-height: 100px;
   text-align: center;
   color: #FFFFFF;
   max-width: 720px;
-  min-height: 200px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -28,36 +25,32 @@
 @media screen and (min-width: 620px) and (max-width: 767px) {
   .lead__title{
   margin: 0 16px;
-  font-size: 5em;
+  font-size: 80px;
   line-height: 90px;
   max-width: 100%;
-  min-height: 88px;
 }
 }
 @media screen and (min-width: 496px) and (max-width: 619px) {
   .lead__title{
     margin: 0 auto;
-    font-size: 250%;
+    font-size: 40px;
     line-height: 44px;
     max-width: 80%;
-    min-height: 88px;
   }
 }
   @media screen and (min-width: 319px) and (max-width: 495px) {
   .lead__title{
     margin: 0 auto;
-    font-size: 250%;
+    font-size: 40px;
     line-height: 44px;
     max-width: 100%;
-    min-height: 88px;
   }
 }
 @media screen and (max-width: 318px) {
   .lead__title{
     margin: 0;
-    font-size: 200%;
+    font-size: 32px;
     line-height: 44px;
     max-width: 100%;
-    min-height: 88px;
   }
 }
